@@ -4,14 +4,12 @@
   <div class="row">
     <% data.team_members.each do |member, info| %>
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="text-center">
-          <div class="card-member">
-            <%= image_tag info.picture %>
-            <div class="card-member-info">
-              <h2><%= info.name %></h2>
-              <h3><%= info.job %></h3>
-              <p><%= info.mail %></p>
-            </div>
+        <div class="card-member">
+          <%= image_tag info.picture %>
+          <div class="card-member-info">
+            <h2><%= info.name %></h2>
+            <h3><%= info.job %></h3>
+            <p><%= info.mail %></p>
           </div>
         </div>
       </div>
