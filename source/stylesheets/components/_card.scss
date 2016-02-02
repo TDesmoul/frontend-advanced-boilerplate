@@ -41,3 +41,32 @@
 .card-link:hover{
   opacity: 0.1;
 }
+.card-member {
+  width: 200px;
+  background: $gray-lighter;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px;
+  img {
+    width: 150px;
+    border-radius: 8px;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: $gray-darker;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: $gray-dark;
+    margin-top: 0px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: light;
+    font-style: italic;
+    color: $gray-light;
+  }
+}

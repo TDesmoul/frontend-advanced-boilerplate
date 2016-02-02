@@ -1,0 +1,15 @@
+romain:
+  name: Romain
+  job: co-founder
+  mail: romain@airbnb.com
+  picture: romain.jpeg
+seb:
+  name: Sebastien
+  job: CTO
+  mail: sebastien@airbnb.com
+  picture: seb.jpg
+Tom:
+  name: Tom
+  job: CEO
+  mail: tom@airbnb.com
+  picture: tom.jpeg
