@@ -6,11 +6,9 @@
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="new-card-team-member text-center">
           <%= image_tag info.picture, class:"avatar-square-large" %>
-          <div class="new-card-team-member-info">
-            <h2><%= info.name %></h2>
-            <h3><%= info.job %></h3>
-            <p><%= info.mail %></p>
-          </div>
+          <h2><%= info.name %></h2>
+          <h3><%= info.job %></h3>
+          <p><%= info.mail %></p>
         </div>
       </div>
     <% end %>
