@@ -1,10 +1,77 @@
-<!-- source/flats/show.html.erb -->
-
 <!-- Read from data.flats with owner key -->
 <% flat = data.flats[owner] %>
 
+
+<div class="banner flat-show-banner" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path flat.picture %>')"></div>
+<div class="wrapper-wight">
+  <div class="container padding-20px">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="flat-summary-card padding-30px">
+          <div class="member-id text-center">
+            <%= image_tag flat.owner_picture, class: "avatar-square-medium" %>
+            <p><%= flat.owner_name %></p>
+          </div>
+          <div class="flat-summary">
+            <h2><%= flat.summary %></h2>
+            <p><%= flat.city %></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="booking-form-section padding-30px">
+          <h2>Book this flat</h2>
+          <form action="#">
+            <input type="text" class="form-control checkin" placeholder="checkin">
+            <input type="text" class="form-control checkout" placeholder="checkout">
+            <select name="" id="" class="form-control">
+              <option value="1">1 person</option>
+              <option value="2">2 persons</option>
+              <option value="3">3 persons</option>
+            </select>
+            <input type="submit" class="btn btn-danger" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper-grey">
+  <div class="container padding-20px">
+    <div class="flat-description padding-30px">
+      <h2>About this flat</h2>
+      <p><%= flat.description %></p>
+    </div>
+    <div class="flat-details padding-30px">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-2 col-md-offset-2">
+            <p>Amenities</p>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <p>Wifi: <%= flat.wifi ? "yes" : "no" %></p>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <p>TV: <%= flat.tv ? "yes" : "no" %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- source/flats/show.html.erb -->
+
+
 <!-- Inject flat data in template -->
-<%= image_tag flat.owner_picture, class: "avatar" %>
-<p><%= flat.owner_name %></p>
-<h1><%= flat.description %></h1>
-<p><%= flat.city %></p>
+
+

@@ -6,6 +6,8 @@ seb:
   summary: Charming room
   city: Brussels, Belgium
   wifi: true
+  tv: true
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 romain:
   owner_name: Romain Paillard
   picture: card-paris.jpg
@@ -14,6 +16,8 @@ romain:
   summary: Nice flat in Montmartre
   city: Paris, France
   wifi: false
+  tv: true
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 thomas:
   owner_name: Thomas Desmoulins
   picture: card-london.jpeg
@@ -22,3 +26,5 @@ thomas:
   summary: Nice flat in Piccadilly
   city: London, UK
   wifi: false
+  tv: true
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

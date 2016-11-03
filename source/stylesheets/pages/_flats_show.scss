@@ -1,0 +1,62 @@
+.flat-show-banner {
+  height: 200px !important;
+}
+.flat-summary-card {
+  display: flex;
+  align-items: center;
+}
+.member-id {
+  flex: 0 0 auto;
+  p {
+    width: 100px;
+    line-height: 1.2;
+  }
+}
+.flat-summary {
+  flex: 1 0 auto;
+  padding-left: 25px;
+  h2 {
+    font-size: 17px;
+    margin: 0px;
+  }
+}
+.avatar-square-medium {
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.booking-form-section {
+  background-color: $gray-lighter;
+  h2 {
+    font-size: 19px;
+    margin-top: 0px;
+  }
+  .btn-danger {
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 10px;
+  }
+}
+.checktime {
+  width: 49%;
+  border-radius: 6px;
+}
+.checkin {
+  @extend .checktime;
+  float: left;
+}
+.checkout {
+  @extend .checktime;
+  float: right;
+}
+select {
+  clear: both;
+}
+.form-control {
+  margin-bottom: 5px;
+}
+.flat-description {
+  border-bottom: 1px solid $gray-light;
+  h2 {
+    font-size: 19px;
+  }
+}
