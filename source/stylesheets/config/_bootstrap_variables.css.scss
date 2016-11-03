@@ -9,6 +9,7 @@ $body-bg:                 white;
 $font-size-base:          $base-size;
 $line-height-base:        $base-height;
 $headings-font-family:    $header-font;
+$headings-font-weight:    $headings-font-weight;
 
 // Semantic color scheme
 $brand-primary:   $blue;
@@ -24,4 +25,8 @@ $border-radius-small: 2px;
 
 
 // form
-$input-border: $blue;
+$input-border:          $blue;
+$input-border-focus:    $orange;
+
+// link
+$link-hover-color: $red;
